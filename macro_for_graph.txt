@@ -1,0 +1,81 @@
+Sub Create_Bar_Chart()
+'create a bar chart in excel with this macro
+
+ActiveSheet.Shapes.AddChart.Select
+ActiveChart.SetSourceData Source:=Range("$A$1:$B$11")
+ActiveChart.ChartType = xlBarClustered
+ActiveChart.SeriesCollection(1).Interior.Color = RGB(255, 140, 0)
+ActiveChart.SeriesCollection(1).Select
+With ActiveChart.Axes(xlCategory)
+.HasMajorGridlines = False
+.HasMinorGridlines = False
+End With
+With ActiveChart.Axes(xlValue)
+.HasMajorGridlines = False
+.HasMinorGridlines = False
+End With
+ActiveChart.HasLegend = False
+ActiveChart.ChartTitle.Text = ""
+ActiveChart.ChartGroups(1).GapWidth = 24
+With ActiveChart.Axes(xlValue).TickLabels
+        .Font.Bold = False
+        .NumberFormat = "0%"
+End With
+With ActiveChart.ChartArea.Format.TextFrame2.TextRange.Font
+    .Name = “Century Schoolbook”
+    .Size = 12
+    .Bold = True
+End With
+
+
+End Sub
+
+
+Sub AddLabelsFromUserSelectedRange()
+  Dim srs As Series, rng As Range, lbl As DataLabel
+  Dim iLbl As Long, nLbls As Long
+
+  If Not ActiveChart Is Nothing Then
+    If ActiveChart.SeriesCollection.Count = 1 Then
+      ' use only series in chart
+      Set srs = ActiveChart.SeriesCollection(1)
+    Else
+      ' use series associated with selected object
+      Select Case TypeName(Selection)
+        Case "Series"
+          Set srs = Selection
+        Case "Point"
+          Set srs = Selection.Parent
+        Case "DataLabels"
+          Set srs = Selection.Parent
+        Case "DataLabel"
+          Set srs = Selection.Parent.Parent
+      End Select
+    End If
+
+    If Not srs Is Nothing Then
+      ' ask user for range, avoid error if canceled
+      On Error Resume Next
+      Set rng = Application.InputBox( _
+          "Select range containing data labels", _
+          "Select Range with Labels", , , , , , 8)
+      On Error GoTo 0
+       If Not rng Is Nothing Then
+        ' point by point, assign cell's address to label
+        nLbls = srs.Points.Count
+        If rng.Cells.Count < nLbls Then nLbls = rng.Cells.Count
+        For iLbl = 1 To nLbls
+          srs.Points(iLbl).HasDataLabel = True
+          Set lbl = srs.Points(iLbl).DataLabel
+          With lbl
+            .Text = "=" & rng.Cells(iLbl).Address(External:=True)
+            .NumberFormat = "0%"
+          End With
+        Next
+      End If
+    End If
+  End If
+      With rng
+          .NumberFormat = "0.00%"
+      End With
+End Sub

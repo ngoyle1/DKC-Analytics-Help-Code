@@ -1,0 +1,61 @@
+<!-- Bootstrap v3.0.3 -->
+<link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+<section class="container" id="Survey" style="margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em;">
+<div class="row col-xs-12 col-md-12"><!-- Instructions -->
+<div class="panel panel-primary">
+<div class="panel-heading"><strong>Instructions</strong></div>
+
+<div class="panel-body">
+<p>Enter instructions for your survey:</p>
+
+<ul>
+	<li>Please answer the questions honestly and truthfully</li>
+	<li>Only one submission per person</li>
+	<li>Offensive answers to question #4 will be considered invalid and will not be paid</li>
+</ul>
+</div>
+</div>
+<!-- End Instructions --><!-- Survey Body -->
+<section>
+<fieldset><label>1. Are you a citizen of the United States? </label>
+
+<div class="radio"><label><input name="citizen" type="radio" value="Yes" />Yes </label></div>
+
+<div class="radio"><label><input name="citizen" type="radio" value="No" />No </label></div>
+</fieldset>
+
+<fieldset><label>2. Are you currently registered to vote in the upcoming November Election? </label>
+
+<div class="radio"><label><input name="registration" type="radio" value="Yes" />Yes </label></div>
+
+<div class="radio"><label><input name="registration" type="radio" value="No" />No </label></div>
+</fieldset>
+
+<fieldset><label>3. If the election was held today, which one of the candidates would you choose for? </label>
+
+<div class="radio"><label><input name="choice" type="radio" value="Clinton" />The Democrat Hillary Clinton </label></div>
+
+<div class="radio"><label><input name="choice" type="radio" value="Trump" />The Republican Donald Trump </label></div>
+
+<div class="radio"><label><input name="choice" type="radio" value="Johson" />The Libertarian Gary Johnson </label></div>
+
+<div class="radio"><label><input name="choice" type="radio" value="Stein" />The Green Party Candidate Jill Stein </label></div>
+
+</fieldset>
+
+<fieldset>
+<div class="input-group"><label>4. Please provide a reason for choosing your candidate (max 140 characters)?</label> <input class="form-control" maxlength="140" name="reason" size="120" type="text" /></div>
+</fieldset>
+
+</section>
+<!-- End Survey Body --></div>
+</section>
+<!-- close container -->
+<style type="text/css">fieldset {
+    padding: 10px;
+    background:#fbfbfb;
+    border-radius:5px;
+    margin-bottom:5px;
+}
+</style>
+

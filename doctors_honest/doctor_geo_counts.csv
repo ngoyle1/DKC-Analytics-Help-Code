@@ -1,0 +1,265 @@
+"city","state","county","number"
+"los angeles","CA","LOS ANGELES",26
+"new york","NY","NEW YORK",20
+"austin","TX","HAYS",8
+"austin","TX","TRAVIS",8
+"austin","TX","WILLIAMSON",8
+"boston","MA","SUFFOLK",7
+"chicago","IL","COOK",7
+"houston","TX","FORT BEND",7
+"houston","TX","HARRIS",7
+"san francisco","CA","SAN FRANCISCO",7
+"san francisco","CA","SAN MATEO",7
+"phoenix","AZ","MARICOPA",6
+"washington","DC","DISTRICT OF COLUMBIA",6
+"buffalo","NY","ERIE",5
+"san antonio","TX","BEXAR",5
+"san antonio","TX","COMAL",5
+"san diego","CA","SAN DIEGO",5
+"beverly hills","CA","LOS ANGELES",4
+"denver","CO","ADAMS",4
+"denver","CO","ARAPAHOE",4
+"denver","CO","DENVER",4
+"denver","CO","JEFFERSON",4
+"nashville","TN","DAVIDSON",4
+"portland","OR","CLACKAMAS",4
+"portland","OR","MULTNOMAH",4
+"portland","OR","WASHINGTON",4
+"seattle","WA","KING",4
+"baltimore","MD","ANNE ARUNDEL",3
+"baltimore","MD","BALTIMORE",3
+"baltimore","MD","BALTIMORE CITY",3
+"charlotte","NC","MECKLENBURG",3
+"dallas","TX","COLLIN",3
+"dallas","TX","DALLAS",3
+"las vegas","NV","CLARK",3
+"milwaukee","WI","MILWAUKEE",3
+"tampa","FL","HILLSBOROUGH",3
+"atlanta","GA","COBB",2
+"atlanta","GA","DEKALB",2
+"atlanta","GA","FULTON",2
+"brooklyn","NY","KINGS",2
+"charleston","SC","BERKELEY",2
+"charleston","SC","CHARLESTON",2
+"cleveland","OH","CUYAHOGA",2
+"columbus","OH","DELAWARE",2
+"columbus","OH","FRANKLIN",2
+"fort worth","TX","TARRANT",2
+"gilbert","AZ","MARICOPA",2
+"lexington","KY","FAYETTE",2
+"manhattan",NA,NA,2
+"memphis","TN","SHELBY",2
+"newport beach","CA","ORANGE",2
+"norwalk","CT","FAIRFIELD",2
+"oklahoma city","OK","CLEVELAND",2
+"oklahoma city","OK","OKLAHOMA",2
+"orlando","FL","BREVARD",2
+"orlando","FL","ORANGE",2
+"philadelphia","PA","DELAWARE",2
+"philadelphia","PA","PHILADELPHIA",2
+"pittsburgh","PA","ALLEGHENY",2
+"reno","NV","WASHOE",2
+"richmond","IN","WAYNE",2
+"rochester","NY","MONROE",2
+"santa barbara","CA","SANTA BARBARA",2
+"silver spring","MD","MONTGOMERY",2
+"staten island","NY","RICHMOND",2
+"toledo","OH","LUCAS",2
+"toledo","OH","WOOD",2
+"torrance","CA","LOS ANGELES",2
+"tulsa","OK","CREEK",2
+"tulsa","OK","TULSA",2
+"alexandria","LA","RAPIDES",1
+"allen","SD","BENNETT",1
+"allen","TX","COLLIN",1
+"ann arbor","MI","WASHTENAW",1
+"arlington","VA","ARLINGTON",1
+"arlington heights","IL","COOK",1
+"aurora","IL","DUPAGE",1
+"aurora","IL","KANE",1
+"aurora","IL","WILL",1
+"batesburg","SC","LEXINGTON",1
+"batesville","AR","INDEPENDENCE",1
+"bel air","MD","HARFORD",1
+"bend","OR","DESCHUTES",1
+"bettendorf","IA","SCOTT",1
+"bloomington","IL","MCLEAN",1
+"boise","ID","ADA",1
+"bolingbrook","IL","WILL",1
+"bothell","WA","KING",1
+"bothell","WA","SNOHOMISH",1
+"brookline","MA","NORFOLK",1
+"burbank","CA","LOS ANGELES",1
+"cambridge","MA","MIDDLESEX",1
+"canton","MI","WAYNE",1
+"carbondale","CO","GARFIELD",1
+"carbondale","IL","JACKSON",1
+"carolina beach","NC","NEW HANOVER",1
+"central","IN","HARRISON",1
+"chandler","AZ","MARICOPA",1
+"chapel hill","NC","ORANGE",1
+"chevy chase","MD","MONTGOMERY",1
+"chillicothe","MO","LIVINGSTON",1
+"cincinnati","OH","CLERMONT",1
+"cincinnati","OH","HAMILTON",1
+"clearwater","FL","PINELLAS",1
+"columbia","SC","LEXINGTON",1
+"columbia","SC","RICHLAND",1
+"conway","AR","FAULKNER",1
+"coventry","CT","TOLLAND",1
+"davenport","FL","POLK",1
+"de pere","WI","BROWN",1
+"des moines","IA","POLK",1
+"detroit",NA,NA,1
+"detroit","MI","WAYNE",1
+"eatontown","NJ","MONMOUTH",1
+"el dorado hills","CA","EL DORADO",1
+"elmwood park","IL","COOK",1
+"emeryville","CA","ALAMEDA",1
+"emporia","KS","LYON",1
+"fargo","ND","CASS",1
+"fernandina beach","FL","NASSAU",1
+"florence","AL","LAUDERDALE",1
+"frederick","MD","FREDERICK",1
+"fresno","CA","FRESNO",1
+"gaylord","MI","OTSEGO",1
+"grand rapids","MI","KENT",1
+"greensboro","AL","HALE",1
+"greensboro","NC","GUILFORD",1
+"groton","CT","NEW LONDON",1
+"hamburg","NY","ERIE",1
+"harrisburg","PA","DAUPHIN",1
+"hastings on hudson","NY","WESTCHESTER",1
+"hedgesville","WV","BERKELEY",1
+"henderson","NV","CLARK",1
+"hermosa beach","CA","LOS ANGELES",1
+"hoboken","NJ","HUDSON",1
+"holliston","MA","MIDDLESEX",1
+"honolulu","HI","HONOLULU",1
+"hummelstown","PA","DAUPHIN",1
+"huntington beach","CA","ORANGE",1
+"indianapolis","IN","HAMILTON",1
+"indianapolis","IN","MARION",1
+"ione","CA","AMADOR",1
+"iowa city","IA","JOHNSON",1
+"iron mountain","MI","DICKINSON",1
+"irvine","CA","ORANGE",1
+"irving","TX","DALLAS",1
+"irwin","PA","WESTMORELAND",1
+"jacksonville","NC","ONSLOW",1
+"jersey city","NJ","HUDSON",1
+"johnson city","TN","WASHINGTON",1
+"jonesboro","AR","CRAIGHEAD",1
+"kansas city","MO","CLAY",1
+"kansas city","MO","JACKSON",1
+"kansas city","MO","PLATTE",1
+"la center","WA","CLARK",1
+"lakeville","MN","DAKOTA",1
+"lancaster","SC","LANCASTER",1
+"lansing","MI","CLINTON",1
+"lansing","MI","EATON",1
+"lansing","MI","INGHAM",1
+"latham","NY","ALBANY",1
+"lenox","MA","BERKSHIRE",1
+"liberty","MO","CLAY",1
+"lockport","LA","LAFOURCHE",1
+"louisville","KY","JEFFERSON",1
+"macungie","PA","LEHIGH",1
+"malibu","CA","LOS ANGELES",1
+"manchester","NH","HILLSBOROUGH",1
+"mansfield","MA","BRISTOL",1
+"manteo","NC","DARE",1
+"matawan","NJ","MONMOUTH",1
+"matthews","NC","MECKLENBURG",1
+"matthews","NC","UNION",1
+"mattoon","IL","COLES",1
+"mckinney","TX","COLLIN",1
+"menlo park","CA","SAN MATEO",1
+"merrimack","NH","HILLSBOROUGH",1
+"mesa","AZ","MARICOPA",1
+"miami","FL","MIAMI-DADE",1
+"midwest","WY","NATRONA",1
+"monroe","NC","UNION",1
+"montville","NJ","MORRIS",1
+"myrtle beach","SC","HORRY",1
+"naperville","IL","DUPAGE",1
+"naperville","IL","WILL",1
+"new orleans","LA","JEFFERSON",1
+"new orleans","LA","ORLEANS",1
+"newmanstown","PA","LEBANON",1
+"newtown square","PA","DELAWARE",1
+"north palm beach","FL","PALM BEACH",1
+"oakland","CA","ALAMEDA",1
+"opelika","AL","LEE",1
+"oradell","NJ","BERGEN",1
+"palm bay","FL","BREVARD",1
+"palm harbor","FL","PINELLAS",1
+"palo alto","CA","SANTA CLARA",1
+"paterson","NJ","PASSAIC",1
+"paw paw","MI","VAN BUREN",1
+"pearland","TX","BRAZORIA",1
+"pembroke","GA","BRYAN",1
+"pennington","NJ","MERCER",1
+"pensacola","FL","ESCAMBIA",1
+"petaluma","CA","SONOMA",1
+"piscataway","NJ","MIDDLESEX",1
+"pittsfield","MA","BERKSHIRE",1
+"plano","TX","COLLIN",1
+"plymouth",NA,NA,1
+"port angeles","WA","CLALLAM",1
+"poway","CA","SAN DIEGO",1
+"poynette","WI","COLUMBIA",1
+"putnam","CT","WINDHAM",1
+"raleigh","NC","WAKE",1
+"redding","CA","SHASTA",1
+"richardson","TX","DALLAS",1
+"richmond","VA","CHESTERFIELD",1
+"richmond","VA","HENRICO",1
+"richmond","VA","RICHMOND CITY",1
+"roanoke","VA","BOTETOURT",1
+"roanoke","VA","ROANOKE",1
+"roanoke","VA","ROANOKE CITY",1
+"roanoke","VA","SALEM",1
+"rochester","NH","STRAFFORD",1
+"rockville","MD","MONTGOMERY",1
+"roselle","IL","DUPAGE",1
+"round rock","TX","WILLIAMSON",1
+"roxboro","NC","PERSON",1
+"sacramento","CA","SACRAMENTO",1
+"salisbury","MD","WICOMICO",1
+"salt lake city","UT","SALT LAKE",1
+"san jose","CA","SANTA CLARA",1
+"sanford","FL","SEMINOLE",1
+"santa monica","CA","LOS ANGELES",1
+"santee","CA","SAN DIEGO",1
+"sarasota","FL","MANATEE",1
+"sarasota","FL","SARASOTA",1
+"sardis",NA,NA,1
+"scarsdale","NY","WESTCHESTER",1
+"scottsdale","AZ","MARICOPA",1
+"senoia","GA","COWETA",1
+"south pasadena","CA","LOS ANGELES",1
+"stamford","CT","FAIRFIELD",1
+"stephens city","VA","FREDERICK",1
+"sugar valley","GA","GORDON",1
+"sweet home",NA,NA,1
+"tomahawk","WI","LINCOLN",1
+"towson","MD","BALTIMORE",1
+"truckee","CA","NEVADA",1
+"vacherie","LA","SAINT JAMES",1
+"vail","CO","EAGLE",1
+"venice","FL","SARASOTA",1
+"vero beach","FL","INDIAN RIVER",1
+"wallingford","CT","NEW HAVEN",1
+"weaverville","NC","BUNCOMBE",1
+"west",NA,NA,1
+"west concord","MN","DODGE",1
+"west des moines","IA","POLK",1
+"west hollywood","CA","LOS ANGELES",1
+"western",NA,NA,1
+"westlake village","CA","VENTURA",1
+"westminster","MD","CARROLL",1
+"wichita","KS","SEDGWICK",1
+"wilmington","DE","NEW CASTLE",1
+"woodland hills","CA","LOS ANGELES",1
+"wrightsville","PA","YORK",1
